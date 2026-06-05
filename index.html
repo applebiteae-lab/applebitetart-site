@@ -23,7 +23,21 @@
     <style>
       header.scrolled .menus > ul > li::after {
         background-color: var(--text-color-white);
-      }
+  :root {
+        --primary-color: #E75480; /* الوردي الغامق للأزرار */
+        --secondary-color: #D4AF37; /* الذهبي الفاخر */
+        --bg-color: #F8C8DC; /* الوردي الهادئ للخلفية */
+    }
+    body {
+        background-color: var(--bg-color);
+        color: #333;
+    }
+    h1, h2, h3 {
+        color: var(--secondary-color); /* العناوين بالذهبي */
+    }
+    .btn {
+        background-color: var(--primary-color) !important;
+    }
       
     </style>
   </head>
